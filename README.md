@@ -101,6 +101,5 @@ streamlit run app/dashboard.py
 ---
 
 ## Author
-**[Your Name]** — UiTM CDCS255 Final Year Student
-- Student ID: 2024428554
+**Farhan Nurani** —  Final Year Student
 - Project developed as a supplementary portfolio project alongside FYP: *A Hybrid Machine Learning Approach for DDoS Attack Detection in 5G Network Slicing*
