@@ -1,0 +1,29 @@
+# ── Core Data Science ──────────────────────────────────────────────────────────
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.12.0
+
+# ── Machine Learning ───────────────────────────────────────────────────────────
+scikit-learn==1.4.0
+xgboost==2.0.3
+imbalanced-learn==0.12.0        # SMOTE for class imbalance
+
+# ── Deep Learning (LSTM) ───────────────────────────────────────────────────────
+tensorflow==2.15.0              # Use Google Colab if local CPU is too slow
+
+# ── Explainability (XAI) ───────────────────────────────────────────────────────
+shap==0.44.1
+
+# ── Visualisation ──────────────────────────────────────────────────────────────
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# ── Dashboard ──────────────────────────────────────────────────────────────────
+streamlit==1.31.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+joblib==1.3.2                   # Model serialisation
+pyarrow==15.0.0                 # Parquet file support (fast I/O)
+tqdm==4.66.2                    # Progress bars
+jupyter==1.0.0
+ipykernel==6.29.2
