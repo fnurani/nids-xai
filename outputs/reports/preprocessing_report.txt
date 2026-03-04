@@ -1,0 +1,17 @@
+============================================================
+NIDS-XAI — Preprocessing Report
+============================================================
+
+Original shape       : (225745, 79)
+After cleaning       : (223082, 69)
+Rows removed         : 2663
+Features used        : 66
+Test size            : 20%
+SMOTE applied        : False
+Scaler               : StandardScaler
+Split strategy       : Stratified
+Random state         : 42
+
+Class Mapping (Multiclass):
+  0 -> BENIGN
+  1 -> DDoS
