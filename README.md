@@ -1,6 +1,4 @@
-$url = "https://raw.githubusercontent.com/fnurani/nids-xai/main/README.md"
-# Instead just write it directly:
-@'
+
 # NIDS-XAI — Network Intrusion Detection with Explainable AI
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-nids--xai.streamlit.app-00e5b0?style=flat&logo=streamlit&logoColor=white)](https://nids-xai.streamlit.app)
