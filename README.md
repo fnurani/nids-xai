@@ -108,4 +108,3 @@ streamlit run app/dashboard.py
 
 **Farhan Nurani**
 farhannurani02@gmail.com
-'@ | Set-Content README.md -Encoding UTF8
