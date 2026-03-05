@@ -7,6 +7,10 @@
 [![SHAP](https://img.shields.io/badge/SHAP-0.46.0-purple?style=flat)](https://shap.readthedocs.io)
 [![Dataset](https://img.shields.io/badge/Dataset-CICIDS2017-lightgrey?style=flat)](https://www.unb.ca/cic/datasets/ids-2017.html)
 
+<img width="1914" height="998" alt="image" src="https://github.com/user-attachments/assets/ecb38944-de6f-4992-8c98-939b6b0c2916" />
+<img width="1046" height="806" alt="image" src="https://github.com/user-attachments/assets/d2db0a71-4369-429a-89a5-d7763d4105cb" />
+
+
 A machine learning system that classifies network traffic as **Benign** or **DDoS**, enhanced with **Explainable AI (SHAP)** to provide human-interpretable justifications for every prediction. Trained and evaluated on the CICIDS2017 benchmark from the Canadian Institute for Cybersecurity.
 
 ---
