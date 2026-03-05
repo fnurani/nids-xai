@@ -1,3 +1,7 @@
+# ??? NIDS-XAI — Network Intrusion Detection System
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-nids--xai.streamlit.app-00e5b0?style=flat&logo=streamlit)](https://nids-xai.streamlit.app)
+
 # Network Intrusion Detection System with Explainable AI (NIDS-XAI)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
@@ -103,3 +107,4 @@ streamlit run app/dashboard.py
 ## Author
 **Farhan Nurani** â€”  Final Year Student
 - Project developed as a supplementary portfolio project alongside FYP: *A Hybrid Machine Learning Approach for DDoS Attack Detection in 5G Network Slicing*
+
