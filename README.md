@@ -1,4 +1,4 @@
-# ??? NIDS-XAI � Network Intrusion Detection System
+# NIDS-XAI — Network Intrusion Detection System
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-nids--xai.streamlit.app-00e5b0?style=flat&logo=streamlit)](https://nids-xai.streamlit.app)
 
@@ -19,27 +19,27 @@ Trained and evaluated on the **CICIDS2017** dataset from the Canadian Institute 
 ## Project Structure
 ```
 nids-xai/
-├── data/
-│   ├── raw/                  # Original CICIDS2017 CSV files (not tracked by Git)
-│   └── processed/            # Cleaned, preprocessed .parquet files
-├── notebooks/                # Exploratory analysis and experiments
-├── src/
-│   ├── preprocessing/        # Data cleaning, SMOTE, scaling pipeline
-│   ├── models/               # Random Forest, XGBoost, LSTM training scripts
-│   └── explainability/       # SHAP analysis and plot generation
-├── outputs/
-│   ├── figures/              # SHAP plots, confusion matrices, PR curves
-│   ├── models/               # Saved trained models (.pkl / .h5)
-│   └── reports/              # Classification reports in CSV
-├── app/                      # Streamlit dashboard
-├── requirements.txt
-└── README.md
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ raw/                  # Original CICIDS2017 CSV files (not tracked by Git)
+â”‚   â””â”€â”€ processed/            # Cleaned, preprocessed .parquet files
+â”œâ”€â”€ notebooks/                # Exploratory analysis and experiments
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ preprocessing/        # Data cleaning, SMOTE, scaling pipeline
+â”‚   â”œâ”€â”€ models/               # Random Forest, XGBoost, LSTM training scripts
+â”‚   â””â”€â”€ explainability/       # SHAP analysis and plot generation
+â”œâ”€â”€ outputs/
+â”‚   â”œâ”€â”€ figures/              # SHAP plots, confusion matrices, PR curves
+â”‚   â”œâ”€â”€ models/               # Saved trained models (.pkl / .h5)
+â”‚   â””â”€â”€ reports/              # Classification reports in CSV
+â”œâ”€â”€ app/                      # Streamlit dashboard
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ README.md
 ```
 
 ---
 
 ## Dataset
-**CICIDS2017** — Canadian Institute for Cybersecurity Intrusion Detection Dataset 2017
+**CICIDS2017** â€” Canadian Institute for Cybersecurity Intrusion Detection Dataset 2017
 - Download: https://www.unb.ca/cic/datasets/ids-2017.html
 - Place CSV files in: `data/raw/`
 - Recommended starting file: `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`
@@ -105,6 +105,6 @@ streamlit run app/dashboard.py
 ---
 
 ## Author
-**Farhan Nurani** —  Final Year Student
+**Farhan Nurani** â€”  Final Year Student
 - Project developed as a supplementary portfolio project alongside FYP: *A Hybrid Machine Learning Approach for DDoS Attack Detection in 5G Network Slicing*
 
