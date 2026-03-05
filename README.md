@@ -1,3 +1,6 @@
+$url = "https://raw.githubusercontent.com/fnurani/nids-xai/main/README.md"
+# Instead just write it directly:
+@'
 # NIDS-XAI — Network Intrusion Detection with Explainable AI
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-nids--xai.streamlit.app-00e5b0?style=flat&logo=streamlit&logoColor=white)](https://nids-xai.streamlit.app)
@@ -34,8 +37,6 @@ Upload a CICIDS2017-format CSV or click **Load sample data** to run live inferen
 
 ## SHAP Feature Attribution
 
-Top features by mean absolute SHAP value across the test set:
-
 | Rank | Feature | Mean \|SHAP\| | Attribution |
 |---|---|---|---|
 | 1 | Fwd Packet Length Max | 3.6388 | 23.18% |
@@ -49,22 +50,21 @@ The top 4 features account for **54.7%** of all classification decisions.
 ---
 
 ## Project Structure
-
 ```
 nids-xai/
 ├── app/
-│   └── dashboard.py              # Streamlit Command Center dashboard
+│   └── dashboard.py
 ├── src/
-│   ├── preprocessing/            # Data cleaning and scaling pipeline
-│   ├── models/                   # XGBoost training scripts
-│   └── explainability/           # SHAP analysis and plot generation
+│   ├── preprocessing/
+│   ├── models/
+│   └── explainability/
 ├── data/
-│   ├── raw/                      # Original CICIDS2017 CSV files (not tracked)
-│   └── processed/                # Preprocessed .parquet files
+│   ├── raw/
+│   └── processed/
 ├── outputs/
-│   ├── models/                   # Trained model artifacts (.pkl)
-│   ├── figures/                  # SHAP plots, confusion matrices
-│   └── reports/                  # Classification reports, SHAP rankings
+│   ├── models/
+│   ├── figures/
+│   └── reports/
 ├── requirements.txt
 └── README.md
 ```
@@ -72,20 +72,12 @@ nids-xai/
 ---
 
 ## How to Run Locally
-
 ```bash
-# 1. Clone the repo
 git clone https://github.com/fnurani/nids-xai.git
 cd nids-xai
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run the dashboard
 streamlit run app/dashboard.py
 ```
-
-Opens at `http://localhost:8501`
 
 ---
 
@@ -94,10 +86,10 @@ Opens at `http://localhost:8501`
 **CICIDS2017** — Canadian Institute for Cybersecurity Intrusion Detection System 2017
 
 - **Source:** [unb.ca/cic/datasets/ids-2017.html](https://www.unb.ca/cic/datasets/ids-2017.html)
-- **Subset used:** Friday — DDoS vs Benign traffic
+- **Subset:** Friday DDoS vs Benign
 - **Raw records:** 225,745 flows
 - **After preprocessing:** 223,082 flows
-- **Features:** 68 numeric network flow statistics
+- **Features:** 68 numeric flow statistics
 
 ---
 
@@ -118,3 +110,4 @@ Opens at `http://localhost:8501`
 
 **Farhan Nurani**
 farhannurani02@gmail.com
+'@ | Set-Content README.md -Encoding UTF8
